@@ -1,0 +1,184 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.menu{
+    text-align: center;
+    padding: 5% 5% 0 5%;
+}
+.beef{
+    color: white;
+}
+@media (max-width: 425px){
+.container{
+    margin: 5% 10%;
+}
+/* chicken */
+.chicken-container{
+    background-color: grey;
+    border: solid 3px black;
+    margin-bottom: 5%;
+}
+.chicken{
+    background-color: indianred;
+    float: right;
+    margin: 0;
+    padding: 1% 5%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.chicken-text{
+    padding: 10% 3% 3% 3%;
+}
+/* beef */
+.beef-container{
+    background-color: grey;
+    border: solid 3px black;
+    margin-bottom: 5%;
+}
+.beef{
+    background-color: rgb(216, 27, 27);
+    float: right;
+    margin: 0;
+    padding: 1% 10%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.beef-text{
+    padding: 10% 3% 3% 3%;
+}
+/* sushi */
+.sushi-container{
+    background-color: grey;
+    border: solid 3px black;
+}
+.sushi{
+    background-color: rgb(230, 209, 95);
+    float: right;
+    margin: 0;
+    padding: 1% 8%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.sushi-text{
+    padding: 10% 3% 3% 3%;
+}
+}
+@media (min-device-width: 426px) and (max-device-width: 768px){
+.container{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 5% 10%;
+    }
+/* chicken */
+.chicken-container{
+    background-color: grey;
+    border: solid 3px black;
+    width: 48%;
+    margin-right: 2%;
+}
+.chicken{
+    background-color: indianred;
+    float: right;
+    margin: 0;
+    padding: 1% 5%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.chicken-text{
+    padding: 15% 3% 3% 3%;
+}
+/* beef */
+.beef-container{
+    background-color: grey;
+    border: solid 3px black;
+    width: 48%;
+    margin-left: 2%;
+}
+.beef{
+    background-color: rgb(216, 27, 27);
+    float: right;
+    margin: 0;
+    padding: 1% 10%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.beef-text{
+    padding: 15% 3% 3% 3%;
+}
+/* sushi */
+.sushi-container{
+    background-color: grey;
+    border: solid 3px black;
+    width: 100%;
+    margin-top: 4%;
+}
+.sushi{
+    background-color: rgb(230, 209, 95);
+    float: right;
+    margin: 0;
+    padding: 1% 8%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.sushi-text{
+    padding: 8% 3% 3% 3%;
+}
+}
+@media (min-width: 769px){
+.container{
+    display:flex;
+    flex-direction: row;
+    margin: 5%;
+    gap: 5%;
+}
+/* chicken */
+.chicken-container{
+    background-color: grey;
+    border: solid 3px black;
+}
+.chicken{
+    background-color: indianred;
+    float: right;
+    margin: 0;
+    padding: 1% 5%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.chicken-text{
+    padding: 10% 3% 3% 3%;
+}
+/* beef */
+.beef-container{
+    background-color: grey;
+    border: solid 3px black;
+}
+.beef{
+    background-color: rgb(216, 27, 27);
+    float: right;
+    margin: 0;
+    padding: 1% 10%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.beef-text{
+    padding: 10% 3% 3% 3%;
+}
+/* sushi */
+.sushi-container{
+    background-color: grey;
+    border: solid 3px black;
+}
+.sushi{
+    background-color: rgb(230, 209, 95);
+    float: right;
+    margin: 0;
+    padding: 1% 8%;
+    border-left: solid 3px black;
+    border-bottom: solid 3px black;
+}
+.sushi-text{
+    padding: 10% 3% 3% 3%;
+}
+}
