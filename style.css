@@ -64,7 +64,7 @@
     padding: 10% 3% 3% 3%;
 }
 }
-@media (min-device-width: 426px) and (max-device-width: 768px){
+@media (min-width: 426px) and (max-width: 768px){
 .container{
         display:flex;
         flex-direction: row;
